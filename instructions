@@ -1,0 +1,8 @@
+1. create and activate python virtual environment using python 3.9
+2. install requirements.txt pip install requirements.txt
+3. apply migrations. python manage.py migrate
+4. to run the test cases, run this command python manage.py test
+5. to run the server, run this command. python manage.py runserver
+
+TO test the api, please run the postman collection(aidhere assignment.postman_collection.json) in post added in root directory of project.
+if you don't have postman installed on you computer you can open the postman json file. It contains all the information related to apis.
